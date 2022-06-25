@@ -1,0 +1,27 @@
+{
+    "blockchain": [
+        {
+            "blockchainTitle": "Polygon",
+            "networkId": "polygon::testnet",
+            "rpcEndpoints": [
+                "https://polygon-mumbai.g.alchemy.com/v2/PLr-ckyz08ZeYfaljvzGtdUNSA1WwyJO"
+                "https://rpc-mumbai.maticvigil.com/",
+                "https://matic-mumbai.chainstacklabs.com",
+                "https://rpc-mumbai.matic.today",
+            ],
+            "publicKey": "...",
+            "privateKey": "..."
+        }
+    ],
+    "graphDatabase": {
+        "username": "admin",
+        "password": ""
+    },
+    "logLevel": "trace",
+    "rpcPort": 8900,
+    "network": {},
+    "ipWhitelist": [
+        "::1",
+        "127.0.0.1"
+    ]
+}
